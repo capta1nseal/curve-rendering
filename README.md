@@ -10,6 +10,7 @@ You should get involved if interested. see contributing.
 
 ### planned end product
 The end product for this project won't be the next big piece of interactive software you'd be proud to put on your CV.
+
 The goal is to learn, and to make something fun in the process.
 
 With that out of the way, let's get into stuff the end product will have:
@@ -29,6 +30,7 @@ Systems built upon are C++ with Vulkan with an SDL2 context.
   - side note, shaders are written in GLSL then compiled to SPIRV for Vulkan.
 
 Build using g++ and make. ```build-essential``` recommended.
+
 Everything is currently statically linked, subject to change as the project grows.
 
 TO DOCUMENT: GLM if it ends up being used.
@@ -60,6 +62,7 @@ Once functionality is implemented, a github actions workflow will be implemented
 In case you wish to contribute, the best way to do so is to create an issue for discussion, or fork and create a pull request preferably including an email address, discord, telegram or other simple means of communication. No changes are necessary at that point, in fact communicating beforehand is preferable. Chances are, your hypothetical changes will conflict with something already being worked on. Save yourself the trouble and get in touch first :)
 
 The aim of the project is to be as approachable as possible, but currently building on or for a platform other than linux has not been done or documented.
+
 If you want to help expand this project's out-of-box ease-of-use to other platforms, contributions are greatly appreciated.
 
 Document your changes as well as possible, because PRs containing anything mysterious will not be approved. Don't worry about strict standards though, just try to stick to what you observe already present elsewhere.
